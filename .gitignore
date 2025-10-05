@@ -5,6 +5,9 @@ __pycache__/
 .env
 *.log
 .ipynb
+# Игнорировать CSV и Excel файлы везде, кроме папки data
+!data/*.csv
+!data/*.xlsx
 *.csv
 *.xlsx
 /temp/
